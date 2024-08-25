@@ -1,0 +1,16 @@
+@import url('https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css'); /* Import Tailwind CSS */
+
+/* Custom Animation for Logo */
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-15px);
+    }
+}
+
+/* Apply the animation to the logo */
+.logo-bounce {
+    animation: bounce 2s infinite;
+}
